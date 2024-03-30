@@ -1,0 +1,44 @@
+{
+  "name": "pariaturlabore",
+  "version": "1.0.0",
+  "description": "Node.js Video Library",
+  "license": "MIT",
+  "main": "index",
+  "author": "CliftonCummerata",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TysonDouglas/pariaturlabore.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [
+    "error",
+    "mp4",
+    "mov",
+    "flv",
+    "quas",
+    "error",
+    "hls",
+    "illum",
+    "odio",
+    "mpeg-ts",
+    "tsmuxer",
+    "ts-muxer",
+    "h264",
+    "asperiores",
+    "hevc"
+  ],
+  "scripts": {
+    "prepare": "npm prune",
+    "test": "mocha ./test/tests.js",
+    "performance-test": "mocha ./test/performance-test.js",
+    "lint": "eslint \"lib/**\""
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.11.1",
+    "faker": "^4.1.0",
+    "mocha": "^5.2.0"
+  }
+}
